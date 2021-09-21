@@ -1,0 +1,88 @@
+.hero_section_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 77px;
+}
+
+.hero_section_footer_badge {
+  font-family: Roboto;
+  color: #999999;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 64px;
+}
+
+.hero_section_footer_phone {
+  text-decoration: none;
+  font-family: Roboto;
+  color: #121212;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-right: 64px;
+}
+
+.hero_section_footer_phone:hover {
+  color: #0EC261;
+}
+
+.hero_section_footer_phone:active {
+  color: #0EC261;
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .hero_section_footer {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: stretch;
+    background-color: #151B1F;
+    height: 72px;
+  }
+
+  .hero_section_footer_badge {
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #EEEEEE;
+    margin: 0;
+    margin-bottom: 6px;
+    margin-right: 16px;
+  }
+
+  .hero_section_footer_phone {
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #0EC261;
+    margin: 0;
+    margin-top: 6px;
+    margin-right: 16px;
+  }
+  
+  .hero_section_footer_phone:hover {
+    color: #0EC261;
+  }
+  
+  .hero_section_footer_phone:active {
+    color: #0EC261;
+  }
+}

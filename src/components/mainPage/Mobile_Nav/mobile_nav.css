@@ -1,0 +1,40 @@
+@media (min-width: 1440px) {
+  .mobile_nav {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .mobile_nav {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .mobile_nav {
+    display: none;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  /* .mobile_nav {
+    margin: 0;
+    padding: 0;
+  } */
+
+  .menu_btn {
+    z-index: 999999;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    margin-left: 16px;
+    margin-top: 16px;
+    border: none;
+    background: none;
+    background-image: url(./sandwich_btn_black.svg);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+  }
+}
