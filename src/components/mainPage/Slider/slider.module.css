@@ -1,12 +1,8 @@
-* {
-  padding: 0;
-}
-
 .prev_button {
   position: absolute;
   border: none;
   background: none;
-  background-image: url(./slider_left.svg);
+  background-image: url(../../../assets/img/slider_left.svg);
   background-repeat: no-repeat;
   background-position: 50%;
   left: 0;
@@ -18,7 +14,7 @@
 
 .prev_button:hover {
   background: rgba(14, 194, 97, 0.2);
-  background-image: url(./slider_left.svg);
+  background-image: url(../../../assets/img/slider_left.svg);
   background-repeat: no-repeat;
   background-position: 50%;
 }
@@ -28,7 +24,7 @@
   right: 0;
   border: none;
   background: none;
-  background-image: url(./slider_right.svg);
+  background-image: url(../../../assets/img/slider_right.svg);
   background-repeat: no-repeat;
   background-position: 50%;
   height: 100%;
@@ -38,12 +34,12 @@
 
 .next_button:hover {
   background: rgba(14, 194, 97, 0.2);
-  background-image: url(./slider_right.svg);
+  background-image: url(../../../assets/img/slider_right.svg);
   background-repeat: no-repeat;
   background-position: 50%;
 }
 
-.carousel .carousel-indicators {
+/* .carousel .carousel-indicators {
   margin-bottom: 32px;
 }
 
@@ -57,12 +53,12 @@
 
 .carousel .carousel-indicators button.active {
   background-color: #0EC261;
-}
+} */
 
 .slide_1 {
   height: 100vh;
   background: none;
-  background-image: url('./slide_1_pic.png');
+  background-image: url('../../../assets/img/slide_1_pic.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -73,7 +69,7 @@
 .slide_2 {
   height: 100vh;
   background: none;
-  background-image: url('./slide_2_pic.png');
+  background-image: url('../../../assets/img/slide_2_pic.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -84,7 +80,7 @@
 .slide_3 {
   height: 100vh;
   background: none;
-  background-image: url('./slide_3_pic.png');
+  background-image: url('../../../assets/img/slide_3_pic.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -95,7 +91,7 @@
 .slide_4 {
   height: 100vh;
   background: none;
-  background-image: url('./slide_4_pic.png');
+  background-image: url('../../../assets/img/slide_4_pic.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -103,13 +99,13 @@
   flex-direction: row;
 }
 
-.slider_info {
+.content {
   margin-top: 237px;
   margin-left: 96px;
   margin-right: 96px;
 }
 
-.slider_info_title {
+.title {
   font-family: Roboto;
   color: #FFFFFF;
   font-size: 40px;
@@ -121,7 +117,7 @@
   margin-bottom: 8px;
 }
 
-.slider_info_description {
+.description {
   font-family: Roboto;
   color: #EEEEEE;
   font-size: 24px;
@@ -133,7 +129,7 @@
   margin-bottom: 32px;
 }
 
-.slider_1_info_button {
+.slider_1_button {
   padding: 0;
   border: none;
   border-radius: 4px;
@@ -150,7 +146,15 @@
   height: 48px;
 }
 
-.slider_2_info_button {
+.slider_1_button:hover {
+  background: linear-gradient(to right, #0F3831, #085412);
+}
+
+.slider_1_button:active {
+  background: linear-gradient(to right, #0B2824, #07450F);
+}
+
+.slider_2_button {
   padding: 0;
   border: none;
   border-radius: 4px;
@@ -167,7 +171,15 @@
   height: 48px;
 }
 
-.slider_3_info_button {
+.slider_2_button:hover {
+  background: linear-gradient(to right, #10223D, #0A6152);
+}
+
+.slider_2_button:active {
+  background: linear-gradient(to right, #0F2038, #08493E);
+}
+
+.slider_3_button {
   padding: 0;
   border: none;
   border-radius: 4px;
@@ -184,7 +196,15 @@
   height: 48px;
 }
 
-.slider_4_info_button {
+.slider_3_button:hover {
+  background: linear-gradient(to right, #3C2810, #610A2F);
+}
+
+.slider_3_button:active {
+  background: linear-gradient(to right, #2C1E0C, #4A0824);
+}
+
+.slider_4_button {
   padding: 0;
   border: none;
   border-radius: 4px;
@@ -199,4 +219,12 @@
   text-align: center;
   width: 154px;
   height: 48px;
+}
+
+.slider_4_button:hover {
+  background: linear-gradient(to right, #1F0F38, #5A0A61);
+}
+
+.slider_4_button:active {
+  background: linear-gradient(to right, #190C2C, #440849);
 }

@@ -1,13 +1,13 @@
-import "./header.css";
+import styles from './header.module.css'; 
 
 const Header = () => (
-  <header className="hero_section_header">
-    <div className="hero_section_header_logo">
+  <header className={ styles.header }>
+    <div className={ styles.logo }>
       <span>Need for drive</span>
     </div>
-    <div className="hero_section_header_location">
-      <div className="hero_section_header_location_icon"></div>
-      <p className="hero_section_header_location_info">Ульяновск</p>
+    <div className={ styles.location }>
+      <div className={ styles.location_icon }></div>
+      <p className={ styles.location_info }>Ульяновск</p>
     </div>
   </header>
 );

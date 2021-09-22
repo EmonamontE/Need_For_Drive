@@ -1,8 +1,4 @@
-.hero_main {
-  margin-left: 64px;
-}
-
-.hero_purpose {
+.purpose {
   font-family: Roboto;
   font-size: 70px;
   font-style: normal;
@@ -10,11 +6,11 @@
   line-height: 66px;
   letter-spacing: 0em;
   text-align: left;
+  margin-bottom: 4px;
 }
 
-.hero_title {
+.title {
   font-family: Roboto;
-  margin-top: 4px;
   color: #0EC261;
   font-size: 70px;
   font-style: normal;
@@ -22,11 +18,11 @@
   line-height: 66px;
   letter-spacing: 0em;
   text-align: left;
+  margin-bottom: 34px;
 }
 
-.hero_description {
+.description {
   font-family: Roboto;
-  margin-top: 34px;
   color: #999999;
   font-size: 26px;
   font-style: normal;
@@ -34,11 +30,11 @@
   line-height: 30px;
   letter-spacing: 0em;
   text-align: left;
+  margin-bottom: 60px;
 }
 
-.reservation_btn {
+.button {
   padding: 0;
-  margin-top: 60px;
   border: none;
   border-radius: 8px;
   color: #FFFFFF;
@@ -54,20 +50,16 @@
   height: 48px;
 }
 
-.reservation_btn:hover {
+.button:hover {
   background: linear-gradient(to right, #0B934A, #026E47);
 }
 
-.reservation_btn:active {
+.button:active {
   background: linear-gradient(to right, #076432, #013C27);
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-  .hero_main {
-    margin-left: 0;
-  }
-  
-  .hero_purpose {
+  .purpose {
     font-family: Roboto;
     font-size: 32px;
     font-style: normal;
@@ -75,12 +67,11 @@
     line-height: 32px;
     letter-spacing: 0em;
     text-align: left;
-    margin: 0;
-    margin-left: 16px;
+    padding-left: 16px;
     margin-bottom: 6px;
   }
-  
-  .hero_title {
+
+  .title {
     font-family: Roboto;
     font-size: 32px;
     font-style: normal;
@@ -88,12 +79,11 @@
     line-height: 32px;
     letter-spacing: 0em;
     text-align: left;
-    margin: 0;
-    margin-left: 16px;
+    padding-left: 16px;
     margin-bottom: 16px;
   }
-  
-  .hero_description {
+
+  .description {
     font-family: Roboto;
     font-size: 18px;
     font-style: normal;
@@ -102,11 +92,11 @@
     letter-spacing: 0em;
     text-align: left;
     margin: 0;
-    margin-left: 16px;
+    padding-left: 16px;
     margin-bottom: 32px;
   }
-  
-  .reservation_btn {
+
+  .button {
     padding: 0;
     border: none;
     border-radius: 0%;
@@ -124,11 +114,11 @@
     height: 50px;
   }
   
-  .reservation_btn:hover {
+  .button:hover {
     background: linear-gradient(to right, #0B934A, #026E47);
   }
   
-  .reservation_btn:active {
+  .button:active {
     background: linear-gradient(to right, #076432, #013C27);
   }
 }

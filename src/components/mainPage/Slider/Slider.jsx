@@ -1,7 +1,8 @@
 import React, { useRef } from 'react';
 import Carousel from 'react-bootstrap/Carousel'
 
-import './Slider.css';
+import styles from './slider.module.css';
+import './carousel.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Slider = () => {
@@ -20,73 +21,73 @@ const Slider = () => {
       ref={ref}
     >
       <Carousel.Item>
-        <div className="slide_1">
-          <button onClick={onPrevClick} className="prev_button"></button>
-          <div className="slider_info">
-            <h3 className="slider_info_title">
+        <div className={ styles.slide_1 }>
+          <button onClick={onPrevClick} className={ styles.prev_button }></button>
+          <div className={ styles.content }>
+            <h3 className={ styles.title }>
               Бесплатная парковка
             </h3>
-            <p className="slider_info_description">
+            <p className={ styles.description }>
               Оставляйте машину на платных городских парковках и
               разрешенных местах, не нарушая ПДД, а также в аэропортах.
             </p>
-            <button className="slider_1_info_button">
+            <button className={ styles.slider_1_button }>
               Подробнее
             </button>
           </div>
-          <button onClick={onNextClick} className="next_button">
+          <button onClick={onNextClick} className={ styles.next_button }>
           </button>
         </div>
       </Carousel.Item>
       <Carousel.Item>
-        <div className="slide_2">
-          <button onClick={onPrevClick} className="prev_button"></button>
-          <div className="slider_info">
-            <h3 className="slider_info_title">
+        <div className={ styles.slide_2 }>
+          <button onClick={onPrevClick} className={ styles.prev_button }></button>
+          <div className={ styles.content }>
+            <h3 className={ styles.title }>
               Страховка
             </h3>
-            <p className="slider_info_description">
+            <p className={ styles.description }>
               Полная страховка автомобиля
             </p>
-            <button className="slider_2_info_button">
+            <button className={ styles.slider_2_button }>
               Подробнее
             </button>
           </div>
-          <button onClick={onNextClick} className="next_button"></button>
+          <button onClick={onNextClick} className={ styles.next_button }></button>
         </div>
       </Carousel.Item>
       <Carousel.Item>
-        <div className="slide_3">
-          <button onClick={onPrevClick} className="prev_button"></button>
-          <div className="slider_info">
-            <h3 className="slider_info_title">
+        <div className={ styles.slide_3 }>
+          <button onClick={onPrevClick} className={ styles.prev_button }></button>
+          <div className={ styles.content }>
+            <h3 className={ styles.title }>
               Бензин
             </h3>
-            <p className="slider_info_description">
+            <p className={ styles.description }>
               Полный бак на любой заправке города за наш счёт
             </p>
-            <button className="slider_3_info_button">
+            <button className={ styles.slider_3_button }>
               Подробнее
             </button>
           </div>
-          <button onClick={onNextClick} className="next_button"></button>
+          <button onClick={onNextClick} className={ styles.next_button }></button>
         </div>
       </Carousel.Item>
       <Carousel.Item>
-        <div className="slide_4">
-          <button onClick={onPrevClick} className="prev_button"></button>
-          <div className="slider_info">
-            <h3 className="slider_info_title">
+        <div className={ styles.slide_4 }>
+          <button onClick={onPrevClick} className={ styles.prev_button }></button>
+          <div className={ styles.content }>
+            <h3 className={ styles.title }>
               Обслуживание
             </h3>
-            <p className="slider_info_description">
+            <p className={ styles.description }>
               Автомобиль проходит еженедельное ТО
             </p>
-            <button className="slider_4_info_button">
+            <button className={ styles.slider_4_button }>
               Подробнее
             </button>
           </div>
-          <button onClick={onNextClick} className="next_button"></button>
+          <button onClick={onNextClick} className={ styles.next_button }></button>
         </div>
       </Carousel.Item>
     </Carousel>

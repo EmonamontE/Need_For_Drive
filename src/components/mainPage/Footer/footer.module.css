@@ -1,11 +1,11 @@
-.hero_section_footer {
+.footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 77px;
 }
 
-.hero_section_footer_badge {
+.badge {
+  margin: 0;
   font-family: Roboto;
   color: #999999;
   font-size: 13px;
@@ -14,10 +14,9 @@
   line-height: 15px;
   letter-spacing: 0em;
   text-align: left;
-  margin-left: 64px;
 }
 
-.hero_section_footer_phone {
+.phone {
   text-decoration: none;
   font-family: Roboto;
   color: #121212;
@@ -27,20 +26,19 @@
   line-height: 15px;
   letter-spacing: 0em;
   text-align: left;
-  margin-right: 64px;
 }
 
-.hero_section_footer_phone:hover {
+.phone:hover {
   color: #0EC261;
 }
 
-.hero_section_footer_phone:active {
+.phone:active {
   color: #0EC261;
 }
 
 
 @media (min-width: 320px) and (max-width: 767px) {
-  .hero_section_footer {
+  .footer {
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-around;
@@ -49,7 +47,7 @@
     height: 72px;
   }
 
-  .hero_section_footer_badge {
+  .badge {
     font-family: Roboto;
     font-size: 13px;
     font-style: normal;
@@ -63,7 +61,7 @@
     margin-right: 16px;
   }
 
-  .hero_section_footer_phone {
+  .phone {
     text-decoration: none;
     font-family: Roboto;
     font-size: 13px;
@@ -78,11 +76,11 @@
     margin-right: 16px;
   }
   
-  .hero_section_footer_phone:hover {
+  .phone:hover {
     color: #0EC261;
   }
   
-  .hero_section_footer_phone:active {
+  .phone:active {
     color: #0EC261;
   }
 }

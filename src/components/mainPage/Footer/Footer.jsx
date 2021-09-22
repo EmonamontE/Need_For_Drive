@@ -1,9 +1,9 @@
-import "./footer.css";
+import styles from "./footer.module.css";
 
 const Footer = () => (
-  <footer className="hero_section_footer">
-    <p className="hero_section_footer_badge">© 2016-2019 «Need for drive»</p>
-    <a href="#" className="hero_section_footer_phone">8 (495) 234-22-44</a>
+  <footer className={ styles.footer }>
+    <p className={ styles.badge }>© 2016-2019 «Need for drive»</p>
+    <a href="#" className={ styles.phone }>8 (495) 234-22-44</a>
   </footer>
 );
 

@@ -1,11 +1,10 @@
-.hero_section_header {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 94px;
 }
 
-.hero_section_header_logo {
+.logo {
   font-family: Roboto;
   color: #0EC261;
   font-size: 30px;
@@ -14,25 +13,23 @@
   line-height: 35px;
   letter-spacing: 0em;
   text-align: left;
-  margin-left: 64px;
 }
 
-.hero_section_header_location {
+.location {
   display: flex;
   align-items: center;
-  margin-right: 64px;
 }
 
-.hero_section_header_location_icon {
+.location_icon {
   padding: 0;
-  background-image: url(./location_logo.svg);
+  background-image: url(../../../assets/img/location_logo.svg);
   background-repeat: no-repeat;
   width: 20px;
   height: 20px;
   margin-right: 7px;
 }
 
-.hero_section_header_location_info {
+.location_info {
   margin: 0;
   font-family: Roboto;
   color: #999999;
@@ -45,16 +42,16 @@
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-  .hero_section_header {
+  .header {
+    padding: 16px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: stretch;
     width: 100%;
-    height: 64px;
   }
   
-  .hero_section_header_logo {
+  .logo {
     font-family: Roboto;
     color: #0EC261;
     font-size: 30px;
@@ -64,19 +61,17 @@
     letter-spacing: 0em;
     text-align: right;
     margin: 0;
-    margin-top: 6px;
-    margin-right: 16px;
+    margin-bottom: 8px;
   }
   
-  .hero_section_header_location {
+  .location {
     display: flex;
     justify-content: end;
     align-items: center;
     margin: 0;
-    margin-right: 16px;
   }
   
-  .hero_section_header_location_info {
+  .location_info {
     font-family: Roboto;
     color: #999999;
     font-size: 14px;

@@ -1,11 +1,10 @@
-* {
-  padding: 0;
-}
-
-.menu_container {
+.container {
+  position: absolute;
   display: flex;
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
   color: #FFFFFF;
+  z-index: 100;
 }
 
 .button_section {
@@ -26,23 +25,29 @@
   background-color: rgba(21, 27, 31, 0.81);
 }
 
-.X_btn {
+.close_button {
   padding: 0;
   margin-top: 32px;
   margin-left: 16px;
   border: none;
   background: none;
-  background-image: url(./x_btn.svg);
+  background-image: url(../../../assets/img/x_btn.svg);
   background-repeat: no-repeat;
   width: 32px;
   height: 32px;
   text-decoration: none;
 }
 
-.on_page_links {
-  list-style-type: none;
-  min-width: 560px;
-  min-height: 198px;
+.page_links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 198px;
+  margin-top: 307px;
+  margin-left: 128px;
+}
+
+.link {
   font-family: Roboto;
   font-size: 32px;
   font-style: normal;
@@ -50,11 +55,11 @@
   line-height: 38px;
   letter-spacing: 0em;
   text-align: left;
-  margin-top: 307px;
-  margin-left: 128px;
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
-.on_page_links p:hover {
+.link:hover {
   color: #0EC261;
 }
 
@@ -66,7 +71,7 @@
 
 .telegram_icon {
   border: none;
-  mask-image: url(./telegram_icon.svg);
+  mask-image: url(../../../assets/img/telegram_icon.svg);
   background-color: #FFFFFF;
   width: 32px;
   height: 32px;
@@ -74,7 +79,7 @@
 }
 
 .fb_icon {
-  mask-image: url(./fb_icon.svg);
+  mask-image: url(../../../assets/img/fb_icon.svg);
   background-color: #FFFFFF;
   width: 32px;
   height: 32px;
@@ -82,7 +87,7 @@
 }
 
 .instagram_icon {
-  mask-image: url(./instagram_icon.svg);
+  mask-image: url(../../../assets/img/instagram_icon.svg);
   background-color: #FFFFFF;
   width: 32px;
   height: 32px;
@@ -105,7 +110,7 @@
     background-color: rgba(21, 27, 31, 0.81);
   }
 
-  .on_page_links {
+  .page_links {
     margin-left: 97px;
   }
 
@@ -125,7 +130,7 @@
     display: none;
   }
 
-  .on_page_links {
+  .page_links {
     margin-left: 97px;
   }
 
@@ -133,39 +138,48 @@
     margin-left: 97px;
   }
 
-  .X_btn {
+  .close_button {
     margin-top: 28px;
     margin-left: 17px;
   }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-  .button_section {
+  .container {
     background-color: #111518;
-    width: 100%;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    padding: 28px;
+  }
+
+  .button_section {
+    height: 0;
+    width: 0;
+  }
+
+  .close_button {
+    margin-top: 0;
+    margin-left: 0;
   }
 
   .links_section {
-    background-color: #111518;
-    height: 100vh;
-    width: 100%;
+    height: auto;
+    width: auto;
+  }
+
+  .page_links {
+    margin-top: 80px;
+    margin-left: 0;
+    margin-bottom: 38px;
+  }
+
+  .social_links {
+    display: flex;
+    margin: 0;
   }
 
   .empty_section {
     display: none;
-  }
-
-  .X_btn {
-    margin-top: 20px;
-    margin-left: 20px;
-  }
-
-  .on_page_links {
-    margin-top: 80px;
-    margin-left: 28px;
-  }
-
-  .social_links {
-    margin-left: 28px;
   }
 }

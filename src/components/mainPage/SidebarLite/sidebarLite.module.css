@@ -1,0 +1,23 @@
+@media (min-width: 768px) {
+  .sidebar_lite {
+    display: none;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .ham_button {
+    z-index: 999999;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    margin-left: 16px;
+    margin-top: 16px;
+    border: none;
+    background: none;
+    background-image: url(../../../assets/img/sandwich_btn_black.svg);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+  }
+}
