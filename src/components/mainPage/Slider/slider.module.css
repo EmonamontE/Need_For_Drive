@@ -47,7 +47,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .slide_2 {
@@ -58,7 +60,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .slide_3 {
@@ -69,7 +73,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .slide_4 {
@@ -80,16 +86,18 @@
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .content {
-  margin-top: 237px;
-  margin-left: 96px;
-  margin-right: 96px;
+  width: 70%;
+  margin-bottom: 15%;
 }
 
 .title {
+  margin: 0;
   font-family: Roboto;
   color: #FFFFFF;
   font-size: 40px;
@@ -102,6 +110,7 @@
 }
 
 .description {
+  margin: 0;
   font-family: Roboto;
   color: #EEEEEE;
   font-size: 24px;
@@ -211,4 +220,10 @@
 
 .slider_4_button:active {
   background: linear-gradient(to right, #190C2C, #440849);
+}
+
+@media (max-width: 1440px) {
+  .content {
+    width: 60%;
+  }
 }

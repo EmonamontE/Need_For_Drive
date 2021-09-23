@@ -22,7 +22,7 @@ const Slider = () => {
     >
       <Carousel.Item>
         <div className={ styles.slide_1 }>
-          <button onClick={ onPrevClick } className={ styles.prev_button }></button>
+          <button onClick={ onPrevClick } className={ styles.prev_button } />
           <div className={ styles.content }>
             <h3 className={ styles.title }>
               Бесплатная парковка
@@ -35,13 +35,12 @@ const Slider = () => {
               Подробнее
             </button>
           </div>
-          <button onClick={ onNextClick } className={ styles.next_button }>
-          </button>
+          <button onClick={ onNextClick } className={ styles.next_button } />
         </div>
       </Carousel.Item>
       <Carousel.Item>
         <div className={ styles.slide_2 }>
-          <button onClick={ onPrevClick } className={ styles.prev_button }></button>
+          <button onClick={ onPrevClick } className={ styles.prev_button } />
           <div className={ styles.content }>
             <h3 className={ styles.title }>
               Страховка
@@ -53,12 +52,12 @@ const Slider = () => {
               Подробнее
             </button>
           </div>
-          <button onClick={ onNextClick } className={ styles.next_button }></button>
+          <button onClick={ onNextClick } className={ styles.next_button } />
         </div>
       </Carousel.Item>
       <Carousel.Item>
         <div className={ styles.slide_3 }>
-          <button onClick={ onPrevClick } className={ styles.prev_button }></button>
+          <button onClick={ onPrevClick } className={ styles.prev_button } />
           <div className={ styles.content }>
             <h3 className={ styles.title }>
               Бензин
@@ -70,12 +69,12 @@ const Slider = () => {
               Подробнее
             </button>
           </div>
-          <button onClick={ onNextClick } className={ styles.next_button }></button>
+          <button onClick={ onNextClick } className={ styles.next_button } />
         </div>
       </Carousel.Item>
       <Carousel.Item>
         <div className={ styles.slide_4 }>
-          <button onClick={ onPrevClick } className={ styles.prev_button }></button>
+          <button onClick={ onPrevClick } className={ styles.prev_button } />
           <div className={ styles.content }>
             <h3 className={ styles.title }>
               Обслуживание
@@ -87,7 +86,7 @@ const Slider = () => {
               Подробнее
             </button>
           </div>
-          <button onClick={ onNextClick } className={ styles.next_button }></button>
+          <button onClick={ onNextClick } className={ styles.next_button } />
         </div>
       </Carousel.Item>
     </Carousel>

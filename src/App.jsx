@@ -1,9 +1,7 @@
 import MainPage from "./pages/MainPage/MainPage";
 
 const App = () => (
-  <div>
-    <MainPage/>
-  </div>
+  <MainPage/>
 );
 
 export default App;

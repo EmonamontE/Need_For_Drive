@@ -14,62 +14,27 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100%;
-  width: 50%;
+  width: 48%;
 }
 
 .slider_section {
   padding: 0;
   margin: 0;
-  background-color: #151B1F;
-  color: #0EC261;
-  height: 100%;
-  width: 50%;
+  width: 48%;
 }
 
-/* Desktop */
-@media (min-width: 1440px) {
-  .content_section {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100vh;
-    width: 50%;
-  }
-
-  .slider_section {
-    background-color: #151B1F;
-    color: #0EC261;
-    height: 100vh;
-    width: 50%;
-  }
-}
-
-/* Desktop mini */
 @media (min-width: 1024px) and (max-width: 1439px) {
   .content_section {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100vh;
-    width: 60%;
+    width: 55%;
   }
 
   .slider_section {
-    background-color: #151B1F;
-    color: #0EC261;
-    height: 100vh;
     width: 40%;
   }
 }
 
-/* Tablet */
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (max-width: 1023px) {
   .content_section {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100vh;
     width: 100%;
   }
 
@@ -78,18 +43,8 @@
   }
 }
 
-/* Mobile */
-@media (min-width: 1px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .content_section {
     padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100vh;
-    width: 100%;
-  }
-
-  .slider_section {
-    display: none;
   }
 }
