@@ -11,7 +11,7 @@
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
-  line-height: 15px;
+  line-height: 15.23px;
   letter-spacing: 0em;
   text-align: left;
 }
@@ -23,21 +23,20 @@
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
-  line-height: 15px;
+  line-height: 15.23px;
   letter-spacing: 0em;
   text-align: left;
 }
 
 .phone:hover {
-  color: #0EC261;
+  color: #121212;
 }
 
 .phone:active {
   color: #0EC261;
 }
 
-
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 1px) and (max-width: 767px) {
   .footer {
     display: flex;
     flex-direction: column-reverse;
@@ -77,7 +76,7 @@
   }
   
   .phone:hover {
-    color: #0EC261;
+    color: #121212;
   }
   
   .phone:active {

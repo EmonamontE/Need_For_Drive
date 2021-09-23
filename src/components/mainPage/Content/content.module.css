@@ -58,7 +58,7 @@
   background: linear-gradient(to right, #076432, #013C27);
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 1px) and (max-width: 767px) {
   .purpose {
     font-family: Roboto;
     font-size: 32px;

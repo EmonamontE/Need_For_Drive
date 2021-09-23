@@ -4,9 +4,9 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 1px) and (max-width: 767px) {
   .ham_button {
-    z-index: 999999;
+    z-index: 10;
     margin: 0;
     padding: 0;
     position: absolute;
