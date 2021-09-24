@@ -1,30 +1,29 @@
 {
   "files": {
-    "main.css": "/Need_for_drive/static/css/main.4a371230.chunk.css",
-    "main.js": "/Need_for_drive/static/js/main.3c24ced8.chunk.js",
-    "main.js.map": "/Need_for_drive/static/js/main.3c24ced8.chunk.js.map",
-    "runtime-main.js": "/Need_for_drive/static/js/runtime-main.50c70866.js",
-    "runtime-main.js.map": "/Need_for_drive/static/js/runtime-main.50c70866.js.map",
+    "main.css": "/Need_for_drive/static/css/main.1971bd10.chunk.css",
+    "main.js": "/Need_for_drive/static/js/main.97062e12.chunk.js",
+    "main.js.map": "/Need_for_drive/static/js/main.97062e12.chunk.js.map",
+    "runtime-main.js": "/Need_for_drive/static/js/runtime-main.58d977ad.js",
+    "runtime-main.js.map": "/Need_for_drive/static/js/runtime-main.58d977ad.js.map",
     "static/css/2.818011ed.chunk.css": "/Need_for_drive/static/css/2.818011ed.chunk.css",
-    "static/js/2.528fe6da.chunk.js": "/Need_for_drive/static/js/2.528fe6da.chunk.js",
-    "static/js/2.528fe6da.chunk.js.map": "/Need_for_drive/static/js/2.528fe6da.chunk.js.map",
-    "static/js/3.56edf08a.chunk.js": "/Need_for_drive/static/js/3.56edf08a.chunk.js",
-    "static/js/3.56edf08a.chunk.js.map": "/Need_for_drive/static/js/3.56edf08a.chunk.js.map",
+    "static/js/2.4bfc1717.chunk.js": "/Need_for_drive/static/js/2.4bfc1717.chunk.js",
+    "static/js/2.4bfc1717.chunk.js.map": "/Need_for_drive/static/js/2.4bfc1717.chunk.js.map",
+    "static/js/3.f7dafbcd.chunk.js": "/Need_for_drive/static/js/3.f7dafbcd.chunk.js",
+    "static/js/3.f7dafbcd.chunk.js.map": "/Need_for_drive/static/js/3.f7dafbcd.chunk.js.map",
     "index.html": "/Need_for_drive/index.html",
     "static/css/2.818011ed.chunk.css.map": "/Need_for_drive/static/css/2.818011ed.chunk.css.map",
-    "static/css/main.4a371230.chunk.css.map": "/Need_for_drive/static/css/main.4a371230.chunk.css.map",
-    "static/js/2.528fe6da.chunk.js.LICENSE.txt": "/Need_for_drive/static/js/2.528fe6da.chunk.js.LICENSE.txt",
+    "static/css/main.1971bd10.chunk.css.map": "/Need_for_drive/static/css/main.1971bd10.chunk.css.map",
+    "static/js/2.4bfc1717.chunk.js.LICENSE.txt": "/Need_for_drive/static/js/2.4bfc1717.chunk.js.LICENSE.txt",
     "static/media/modalMenu.module.css": "/Need_for_drive/static/media/x_btn.2990540f.svg",
-    "static/media/header.module.css": "/Need_for_drive/static/media/location_logo.237aff23.svg",
-    "static/media/sidebarMobile.module.css": "/Need_for_drive/static/media/sandwich_btn_black.aef17306.svg",
+    "static/media/header.module.css": "/Need_for_drive/static/media/sandwich_btn_black.aef17306.svg",
     "static/media/sidebar.module.css": "/Need_for_drive/static/media/sandwich_btn_white.c2159065.svg",
     "static/media/slider.module.css": "/Need_for_drive/static/media/slider_right.9d87137d.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.50c70866.js",
+    "static/js/runtime-main.58d977ad.js",
     "static/css/2.818011ed.chunk.css",
-    "static/js/2.528fe6da.chunk.js",
-    "static/css/main.4a371230.chunk.css",
-    "static/js/main.3c24ced8.chunk.js"
+    "static/js/2.4bfc1717.chunk.js",
+    "static/css/main.1971bd10.chunk.css",
+    "static/js/main.97062e12.chunk.js"
   ]
 }
