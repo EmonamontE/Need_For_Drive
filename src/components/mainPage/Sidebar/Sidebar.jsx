@@ -1,23 +1,17 @@
-import { useState } from "react";
 import styles from "./sidebar.module.css";
 
-const Sidebar = ({ menuOpenHendler }) => {
-  const [state, setState] = useState(true);
-
-  const stateHandler = () => setState(!state);
-  const language = state ? 'Eng' : 'Рус';
-
+const Sidebar = ({ menuOpenHandler, languageHandler, language }) => {
   return(
     <nav className={ styles.sidebar }>
       <button
         className={ styles.sandwich_btn }
-        onClick={ menuOpenHendler }
+        onClick={ menuOpenHandler }
       />
       <button
         className={ styles.language_btn }
-        onClick={ stateHandler }
+        onClick={ languageHandler }
       >
-        {language}
+        { language }
       </button>
     </nav>
   );

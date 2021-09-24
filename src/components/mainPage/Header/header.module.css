@@ -1,7 +1,14 @@
 .header {
+  display: block;
+}
+
+.sandwich_btn {
+  display: none;
+}
+
+.header_content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .logo {
@@ -37,13 +44,26 @@
   letter-spacing: 0em;
 }
 
-@media (min-width: 1px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .header {
+    display: flex;
+    justify-content: space-between;
     padding: 16px;
+  }
+
+  .header_content {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: flex-end;
+  }
+
+  .sandwich_btn {
+    display: block;
+    border: none;
+    background: none;
+    background-image: url(../../../assets/img/sandwich_btn_black.svg);
+    width: 30px;
+    height: 30px;
   }
 
   .logo {

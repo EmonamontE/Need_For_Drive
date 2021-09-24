@@ -38,11 +38,9 @@
   border: none;
   background: none;
   background-image: url(../../../assets/img/x_btn.svg);
-  background-repeat: no-repeat;
   background-position: center center;
-  width: 20px;
-  height: 20px;
-  text-decoration: none;
+  width: 30px;
+  height: 30px;
 }
 
 .page_links {
@@ -51,7 +49,6 @@
   justify-content: space-between;
   align-items: baseline;
   height: 198px;
-  width: max-content;
   margin-bottom: 38px;
 }
 

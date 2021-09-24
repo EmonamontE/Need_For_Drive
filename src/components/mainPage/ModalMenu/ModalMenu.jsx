@@ -1,18 +1,11 @@
-import { useState } from 'react';
-
 import styles from './modalMenu.module.css'
 
-const ModalMenu = ({ toggleMenu }) => {
-  const [state, setState] = useState(true);
-
-  const stateHandler = () => setState(!state);
-  const language = state ? 'Eng' : 'Рус';
-
+const ModalMenu = ({ menuOpenHandler, languageHandler, language }) => {
   return(
     <div className={ styles.container }>
       <div className={ styles.button_section }>
         <button
-          className={ styles.close_button } onClick={ toggleMenu }
+          className={ styles.close_button } onClick={ menuOpenHandler }
         />
       </div>
       <section className={ styles.links_section }>
@@ -25,19 +18,19 @@ const ModalMenu = ({ toggleMenu }) => {
             </div>
             <div className={ styles.social_links }>
               <a href="#">
-                <div className={ styles.telegram_icon }></div>
+                <div className={ styles.telegram_icon } />
               </a>
               <a href="#">
-                <div className={ styles.fb_icon }></div>
+                <div className={ styles.fb_icon } />
               </a>
               <a href="#">
-                <div className={ styles.instagram_icon }></div>
+                <div className={ styles.instagram_icon } />
               </a>
             </div>
           </div>
         <button
           className={ styles.language_btn }
-          onClick={ stateHandler }
+          onClick={ languageHandler }
         >
           { language }
         </button>
