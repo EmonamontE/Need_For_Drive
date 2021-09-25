@@ -7,7 +7,7 @@ const Header = ({ menuOpenHandler }) => (
       onClick={ menuOpenHandler }
     />
     <div className={ styles.header_content}>
-      <h3 className={ styles.logo }>Need for drive</h3>
+      <h3 className={ styles.logo }>Need For Drive</h3>
       <div className={ styles.location }>
         <div className={ styles.location_icon }></div>
         <p className={ styles.location_info }>Ульяновск</p>
